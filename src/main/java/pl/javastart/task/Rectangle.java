@@ -17,4 +17,7 @@ public class Rectangle {
         return sideBLength;
     }
 
+    public double calculatePerimeter() {
+        return (2 * (sideALength + sideBLength));
+    }
 }

@@ -11,4 +11,7 @@ public class Square {
         return sideLength;
     }
 
+    public double calculateArea() {
+        return (sideLength * sideLength);
+    }
 }
