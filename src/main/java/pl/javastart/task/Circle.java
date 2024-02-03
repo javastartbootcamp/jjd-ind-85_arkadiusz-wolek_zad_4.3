@@ -1,17 +1,17 @@
 package pl.javastart.task;
 
 public class Circle {
-    private double radiusLength;
+    private double radius;
 
-    public Circle(double radiusLength) {
-        this.radiusLength = radiusLength;
+    public Circle(double radius) {
+        this.radius = radius;
     }
 
-    public double getRadiusLength() {
-        return radiusLength;
+    public double getRadius() {
+        return radius;
     }
 
     public double calculateArea() {
-        return (Math.PI * radiusLength * radiusLength);
+        return (Math.PI * radius * radius);
     }
 }

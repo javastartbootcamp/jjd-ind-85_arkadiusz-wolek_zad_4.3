@@ -1,17 +1,17 @@
 package pl.javastart.task;
 
 public class Square {
-    private double sideLength;
+    private double a;
 
-    public Square(double sideLength) {
-        this.sideLength = sideLength;
+    public Square(double a) {
+        this.a = a;
     }
 
-    public double getSideLength() {
-        return sideLength;
+    public double getA() {
+        return a;
     }
 
     public double calculateArea() {
-        return (sideLength * sideLength);
+        return (a * a);
     }
 }

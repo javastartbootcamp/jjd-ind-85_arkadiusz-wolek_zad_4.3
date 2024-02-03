@@ -1,29 +1,29 @@
 package pl.javastart.task;
 
 public class Triangle {
-    private double sideALength;
-    private double sideBLength;
-    private double sideCLength;
+    private double a;
+    private double b;
+    private double c;
 
-    public Triangle(double sideALength, double sideBLength, double sideCLength) {
-        this.sideALength = sideALength;
-        this.sideBLength = sideBLength;
-        this.sideCLength = sideCLength;
+    public Triangle(double a, double b, double c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
     }
 
-    public double getSideALength() {
-        return sideALength;
+    public double getA() {
+        return a;
     }
 
-    public double getSideBLength() {
-        return sideBLength;
+    public double getB() {
+        return b;
     }
 
-    public double getSideCLength() {
-        return sideCLength;
+    public double getC() {
+        return c;
     }
 
     public double calculatePerimeter() {
-        return (sideALength + sideBLength + sideCLength);
+        return (a + b + c);
     }
 }

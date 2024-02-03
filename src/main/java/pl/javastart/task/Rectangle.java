@@ -1,23 +1,23 @@
 package pl.javastart.task;
 
 public class Rectangle {
-    private double sideALength;
-    private double sideBLength;
+    private double a;
+    private double b;
 
-    public Rectangle(double sideALength, double sideBLength) {
-        this.sideALength = sideALength;
-        this.sideBLength = sideBLength;
+    public Rectangle(double a, double b) {
+        this.a = a;
+        this.b = b;
     }
 
-    public double getSideALength() {
-        return sideALength;
+    public double getA() {
+        return a;
     }
 
-    public double getSideBLength() {
-        return sideBLength;
+    public double getB() {
+        return b;
     }
 
     public double calculatePerimeter() {
-        return (2 * (sideALength + sideBLength));
+        return (2 * (a + b));
     }
 }
